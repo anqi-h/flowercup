@@ -22,13 +22,13 @@ function handleData(status) {
 
     if (status === "Placed") {
       statePlace = createImg("videos/flower1.gif")
-      statePlace.position(0, 0); 
+      statePlace.position(50, 50); 
     } else if (status === "Lifted") {
       stateLift = createImg("videos/flower2.gif")
-      stateLift.position(0, 0);
+      stateLift.position(50, 50);
     } else if (status === "Pouring") {
       statePour = createImg("videos/flower3.gif")
-      statePour.position(0, 0);
+      statePour.position(50, 50);
     }
 
     cup.state = status; //update the status
