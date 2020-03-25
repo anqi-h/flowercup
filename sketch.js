@@ -24,10 +24,10 @@ function handleData(status) {
       statePlace = createImg("videos/flower1.gif")
       statePlace.position(50, 50); 
     } else if (status === "Lifted") {
-      stateLift = createImg("videos/flower2.gif")
+      stateLift = createImg("videos/flower2.mp4")
       stateLift.position(50, 50);
     } else if (status === "Pouring") {
-      statePour = createImg("videos/flower3.gif")
+      statePour = createImg("videos/flower3.mp4")
       statePour.position(50, 50);
     }
 
