@@ -27,7 +27,7 @@ function handleData(status) {
       stateLift = createImg("videos/flower2.gif")
       stateLift.position(0, 50);
     } else if (status === "Pouring") {
-      statePour = createImg("videos/flower4.gif")
+      statePour = createImg("videos/flower3.gif")
       statePour.position(0, 50);
     }
 
