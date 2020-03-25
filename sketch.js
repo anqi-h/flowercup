@@ -6,7 +6,7 @@ let cup = {
 
 function setup() {
   //createCanvas(displayWidth 800, displayHeight 600);
-  createCanvas(1000,450);
+  createCanvas(450,1000);
   background(0);
 
   const connectButton = createButton("Connect");
