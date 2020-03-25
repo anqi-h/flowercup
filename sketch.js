@@ -21,13 +21,13 @@ function handleData(status) {
   if (cup.state !== status) { //check if status is different from previous
 
     if (status === "Placed") {
-      statePlace = createImg("videos/flower1.gif")
+      statePlace = createImg("videos/flower2.gif")
       statePlace.position(50, 50); 
     } else if (status === "Lifted") {
-      stateLift = createImg("videos/flower2.gif")
+      stateLift = createImg("videos/flower3.gif")
       stateLift.position(50, 50);
     } else if (status === "Pouring") {
-      statePour = createImg("videos/flower3.gif")
+      statePour = createImg("videos/flower1.gif")
       statePour.position(50, 50);
     }
 
