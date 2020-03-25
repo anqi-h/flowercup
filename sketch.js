@@ -6,7 +6,7 @@ let cup = {
 
 function setup() {
   //createCanvas(displayWidth 800, displayHeight 600);
-  createCanvas(1200,3000);
+  createCanvas(1000,450);
   background(0);
 
   const connectButton = createButton("Connect");
@@ -22,13 +22,13 @@ function handleData(status) {
 
     if (status === "Placed") {
       statePlace = createImg("videos/flower1.gif")
-      statePlace.position(50, 50); 
+      statePlace.position(100, 100); 
     } else if (status === "Lifted") {
       stateLift = createImg("videos/flower2.gif")
-      stateLift.position(50, 50);
+      stateLift.position(100, 100);
     } else if (status === "Pouring") {
       statePour = createImg("videos/flower3.gif")
-      statePour.position(50, 50);
+      statePour.position(100, 100);
     }
 
     cup.state = status; //update the status
